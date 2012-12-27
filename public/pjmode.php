@@ -24,7 +24,7 @@
 
         ?>
 
-        <h1><?php echo $answer ?></h1>
+        <h1><a href="/"><?php echo $answer ?></a></h1>
         
     </body>
 </html>
