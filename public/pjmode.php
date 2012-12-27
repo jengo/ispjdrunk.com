@@ -1,3 +1,10 @@
+<?php
+
+include('../lib/functions.php');
+
+$answer = activate();
+
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -12,17 +19,6 @@
         <link rel="stylesheet" href="static/css/main.css">
     </head>
     <body>
-        <?php
-
-        date_default_timezone_set('America/Los_Angeles');
-
-        $file = dirname(__FILE__) . '/pjmode.activated';
-
-        touch($file);
-
-        $answer = 'Activated!';
-
-        ?>
 
         <h1><a href="/"><?php echo $answer ?></a></h1>
         
