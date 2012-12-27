@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Is PJ Drunk?</title>
-        <meta name="description" content="">
+        <meta name="description" content="web service that determines if PJ is currently drunk">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="static/css/fancy.css">
     </head>
