@@ -1,28 +1,29 @@
-<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-
-<style type="text/css">
-
-h1
-{
-	font-family: "HelveticaNeue-UltraLight";
-	width: 100%;
-	text-align: center;
-	font-size: 10em;
-}
-
-</style>
-
 <?php
 
-date_default_timezone_set('America/Los_Angeles');
+include('../lib/functions.php');
 
-$file = dirname(__FILE__) . '/pjmode.activated';
-
-touch($file);
-
-$answer = 'Activated!';
+$answer = activate();
 
 ?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Is PJ Drunk? - PJ MODE! GO!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="static/css/main.css">
+    </head>
+    <body>
 
-<h1><?php echo $answer ?></h1>
+        <h1><a href="/"><?php echo $answer ?></a></h1>
+        
+    </body>
+</html>
+
+
 

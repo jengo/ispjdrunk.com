@@ -1,0 +1,33 @@
+/* MAIN STYLES */
+
+h1 {
+    font-family: "HelveticaNeue-UltraLight";
+    width: 100%;
+    text-align: center;
+    font-size: 10em;
+}
+
+h1.buzzed {
+    font-family: "HelveticaNeue-UltraLight";
+    width: 100%;
+    text-align: center;
+    font-size: 10em;
+    text-shadow: 0 0 5px black, -3px -3px 5px #111, 2px 2px 19px rgba(20,20,200, 0.7), -2px -2px 19px rgba(20,20,20, 0.6);
+}
+
+h1.drunk {
+    font-family: "HelveticaNeue-UltraLight";
+    width: 100%;
+    text-align: center;
+    font-size: 10em;
+    text-shadow: 10px 10px 30px black, -10px -10px 10px #110, 2px 2px 19px rgba(20,20,200, 0.7), -8px -8px 30px rgba(20,20,20, 0.6), 0 0 5px black;
+}
+
+h1.plastered {
+    font-family: "HelveticaNeue-UltraLight";
+    width: 100%;
+    text-align: center;
+    font-size: 10em;
+    text-shadow: 20px 10px 30px black, -20px -10px 10px #110, 2px 2px 19px rgba(20,20,200, 0.7), -10px -8px 30px rgba(20,20,20, 0.6), 0 0 5px black, 1px 1px 20px black;
+    color: rgba( 5,5,5,0.4);
+}
