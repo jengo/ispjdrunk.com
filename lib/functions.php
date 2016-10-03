@@ -39,7 +39,7 @@ function score(){
     {
     	$score = 4;
 
-    	if ($dow == 'Monday' || $dow == 'Wendsday' || $dow == 'Thursday' || $dow == 'Friday')
+    	if ($dow == 'Monday' || $dow == 'Wednesday' || $dow == 'Thursday' || $dow == 'Friday')
     	{
     		++$score;
     	}
