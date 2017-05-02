@@ -3,12 +3,12 @@
 
 date_default_timezone_set('America/Los_Angeles');
 
-$filename = dirname(__FILE__) . '/public/pjmode.activated';
+$filename = '/tmp/pjmode.activated';
 
 // Functions
 
 function activate(){
-    $file = dirname(__FILE__) . '/public/pjmode.activated';
+    $file = '/tmp/pjmode.activated';
 
     touch($file);
 
@@ -82,7 +82,7 @@ function score(){
     	$answer = 'Probably';
     }
 
-    $file = dirname(__FILE__) . '/public/pjmode.activated';
+    $file = '/tmp/pjmode.activated';
 
     if (is_file($file))
     {

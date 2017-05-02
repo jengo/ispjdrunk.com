@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  apache:
+    build: .
+    env_file: .env
+    ports:
+      - "${PORT}:80"
